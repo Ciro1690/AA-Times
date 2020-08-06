@@ -1,0 +1,59 @@
+.sections {
+    display: flex;
+    justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	// border-bottom: 2px solid black;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sections-nav {
+	font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 16px;
+    line-height: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: capitalize;
+	color: #000;
+}
+
+.sections-nav li:hover {
+	background-color: $light-gray;
+
+}
+
+.sections-nav li {
+	display: inline-block;
+	padding: 4px;
+}
+
+.button-all-sections-button {
+    color: #333;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 16px;
+    line-height: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    margin-top: 5px;
+    padding: 0;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button-all-sections-button:hover {
+    color: #000;
+    background-color: transparent;
+	text-decoration: underline;
+	border-color: transparent;
+}

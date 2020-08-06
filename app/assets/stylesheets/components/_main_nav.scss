@@ -1,0 +1,55 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid $light-gray;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: $sans-serif;
+  font-size: 11px;
+  padding: 7px 9px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.left-nav > ul > li:hover {
+  color: $lightest-gray;
+}
+
+.fas fa-cog {
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.right-nav > ul > li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+
+}

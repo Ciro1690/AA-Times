@@ -1,0 +1,91 @@
+.main-content, .main-story {
+  margin-top: 10px;
+}
+
+.main-story section {
+    margin-bottom: 20px;
+}
+
+.main-content .main-story a h1{
+    font-size: 26px;
+    font-size: 1.625rem;
+    line-height: 28px;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+    letter-spacing: .01em;
+    word-spacing: -0.1em;
+}
+
+.byline {
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: $serif;
+    color: #999;
+    margin: 4px 0 1px;
+}
+
+p {
+    font-size: 13px;
+}
+
+.main-story ul {
+    list-style: initial;
+    padding-left: 15px;
+}
+
+.main-story ul li{
+	margin: 10px 0;
+	line-height: 1.5;
+}
+
+.opinions-list {
+	list-style: initial;
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.kicker {
+    text-transform: uppercase;
+}
+
+header, h2, .opinions-list li {
+    font-weight: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.comments:hover {
+  text-decoration: underline;
+  color: $blue;
+}
+
+button:hover {
+    background-color: $dark-blue;
+    border: $darkest-blue;
+}
+
+iframe {
+	margin-bottom: 10px;
+}
+
+.opinions-list {
+	list-style: initial;
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.opinion-sign-up {
+    margin: 20px 0;
+}
